@@ -23,7 +23,8 @@ Finally we also need to fetch or build the bootloader binary.
 The easiest way to get it is:
 
 ```
-$ wget -P gadget https://tobhe.de/ubuntu/submarine-a64.kpart
+$ wget https://nightly.link/FyraLabs/submarine/workflows/build/main/submarine-arm64.zip
+$ unzip -j submarine-arm64.zip submarine-a64.kpart -d gadget/
 ```
 
 ## Building
